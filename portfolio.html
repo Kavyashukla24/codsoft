@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.8;
+        }
+
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            margin-right: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .image-container {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="#">Good Pasta</a></h1>
+        <p>Hi all, I'm Saad 👋</p>
+    </header>
+
+    <nav>
+        <a href="#">Skills</a>
+        <a href="#">Open Source</a>
+        <a href="#">Projects</a>
+        <a href="#">Achievements</a>
+        <a href="#">Contact Me</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript/Reactjs/Nodejs/React Native and some other cool libraries and frameworks.</p>
+
+            <div class="container">
+                <div class="image-container">
+                    <img src="https://media.istockphoto.com/id/1331988485/vector/programmer-working-on-laptop-at-his-desk-coding-and-programming-vector-illustration.jpg?s=612x612&w=0&k=20&c=Qk_U0V1h4fW0qL36Z0-j_8Y-163X5Y10p99vZ4=" alt="Programmer working on a laptop">
+                </div>
+
+                <div class="content">
+                    <p>I'm dedicated to creating innovative and user-friendly solutions, and I'm always eager to learn new technologies. I'm passionate about collaborating with others to build amazing products.</p>
+
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+
+                    <div class="contact-info">
+                        <a href="mailto:saad@example.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.966-1.17L7.54 8.831z"/>
+                        </svg>saad@example.com</a>
+                        <a href="tel:+1234567890"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.32a.678.678 0 0 0-.178.714v1.21a.678.678 0 0 0 .178.714l1.244.884a.678.678 0 0 0 .11.063l2.661 2.661a.678.678 0 0 0 .822.157l2.661-2.661a.678.678 0 0 0 .157-.822L12.69 2.32a.678.678 0 0 0-.178-.714V1.328a.678.678 0 0 0-1.015-.063l-2.661 2.661a.678.678 0 0 0-.157.822L6.98 8.354a.678.678 0 0 0 .822.157l2.661 2.661a.678.678 0 0 0 .11.063l1.244.884a.678.678 0 0 0 .178.714v1.21a.678.678 0 0 0 .178.714l1.244.884a.678.678 0 0 0 .822.157l2.661-2.661a.678.678 0 0 0 .157-.822L14.396.358a.678.678 0 0 0-.157-.822L11.731 1.328a.678.678 0 0 0-.822-.157l-2.661 2.661a.678.678 0 0 0-.11.063l-1.244.884a.678.678 0 0 0-.178.714v1.21a.678.678 0 0 0 .178.714l1.244.884a.678.678 0 0 0 .822.157l2.661-2.661a.678.678 0 0 0 .157-.822L16 2.32a.678.678 0 0 0-.178-.714V1.328a.678.678 0 0 0-1.015-.063L13.346 0a.678.678 0 0 0-.822.157l-2.661 2.661a.678.678 0 0 0-.157.822L11.01 8.354a.678.678 0 0 0-.822.157l-2.661 2.661a.678.678 0 0 0-.11.063l-1.244.884a.678.678 0 0 0-.178.714v1.21a.678.678 0 0 0 .178.714l1.244.884a.678.678 0 0 0 .822.157l2.661-2.661a.678.678 0 0 0 .157-.822L3.654 1.328z"/>
+                        </svg>+1234567890</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <p>Here are some of my key skills:</p>
+            <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>React Native</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <p>I've worked on various projects, both personal and professional. You can find a portfolio of my work on [link to portfolio].</p>
+            <!-- Add your project examples here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Saad's Portfolio</p>
+    </footer>
+</body>
+</html>

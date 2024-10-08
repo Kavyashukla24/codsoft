@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #032B44;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header-left {
+    flex-basis: 60%;
+}
+
+.header-right {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+.header-right img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#about {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left {
+    flex-basis: 60%;
+}
+
+.about-right {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+.about-right img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.section-heading {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#skills ul, #projects ul, #about ul {
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li, #projects li, #about li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.project ul {
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.project li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#skills {
+    padding: 20px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+#resume {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
